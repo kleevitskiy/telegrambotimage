@@ -1,3 +1,2 @@
-FROM python:3.8
-RUN pip install python-telegram-bot
-RUN pip install requests
+FROM python:3.9.2
+RUN pip3 install --no-cache-dir -r requirements.txt
